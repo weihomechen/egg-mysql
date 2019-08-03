@@ -4,6 +4,18 @@ Forked from [eggjs/egg-mysql](https://github.com/eggjs/egg-mysql)
 
 添加了`index.d.ts`，只为了在`egg-ts`里能不报错跑起来，极简的用了`any`来声明
 
+使用时：
+
+```js
+// egg plugin config file with ts
+mysql: {
+  enable: true,
+  package: '@ifun/egg-mysql',
+},
+```
+
+其他使用和原本的`egg-mysql`一模一样，源于提了缺少声明文件的问题和PR，`egg-mysql`维护人员说有空会加，过了好久也没加，自己随便搞了个。
+
 Aliyun rds client(support mysql portocal) for egg framework
 
 ## Install
@@ -23,7 +35,7 @@ Change `${app_root}/config/plugin.js` to enable MySQL plugin:
 ```js
 exports.mysql = {
   enable: true,
-  package: 'egg-mysql',
+  package: '@ifun/egg-mysql',
 };
 ```
 
