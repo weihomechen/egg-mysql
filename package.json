@@ -1,6 +1,6 @@
 {
-  "name": "egg-mysql",
-  "version": "3.0.0",
+  "name": "@ifun/egg-mysql",
+  "version": "1.0.0",
   "description": "MySQL plugin for egg",
   "eggPlugin": {
     "name": "mysql"
@@ -13,18 +13,18 @@
     "database"
   ],
   "dependencies": {
-    "ali-rds": "^3.0.1"
+    "ali-rds": "^3.3.0"
   },
   "devDependencies": {
-    "autod": "^3.0.1",
-    "egg": "latest-1",
-    "egg-bin": "^4.7.0",
-    "egg-ci": "^1.8.0",
-    "egg-mock": "^3.17.1",
-    "eslint": "^4.19.1",
-    "eslint-config-egg": "^7.0.0",
-    "supertest": "^3.1.0",
-    "utility": "^1.13.1"
+    "autod": "^3.1.0",
+    "egg": "^2.23.0",
+    "egg-bin": "^4.13.0",
+    "egg-ci": "^1.13.0",
+    "egg-mock": "^3.23.1",
+    "eslint": "^6.1.0",
+    "eslint-config-egg": "^7.4.1",
+    "supertest": "^4.0.2",
+    "utility": "^1.16.1"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -44,12 +44,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-mysql.git"
+    "url": "git+https://github.com/weihomechen/egg-mysql.git"
   },
-  "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
-  },
-  "homepage": "https://github.com/eggjs/egg-mysql#readme",
-  "author": "jtyjty99999",
+  "homepage": "https://github.com/weihomechen/egg-mysql#readme",
+  "author": "moyu",
   "license": "MIT"
 }
