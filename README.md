@@ -1,6 +1,10 @@
 # @ifun/egg-mysql
 
 [![Build Status](https://travis-ci.com/weihomechen/egg-mysql.svg?branch=master)](https://travis-ci.com/weihomechen/egg-mysql)
+[![NPM version][npm-image]][npm-url]
+
+[npm-image]: https://img.shields.io/npm/v/egg-mysql.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@ifun/egg-mysql
 
 Forked from [eggjs/egg-mysql](https://github.com/eggjs/egg-mysql)
 
