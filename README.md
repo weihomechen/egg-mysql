@@ -1,5 +1,7 @@
 # @ifun/egg-mysql
 
+[![Build Status](https://travis-ci.com/weihomechen/egg-mysql.svg?branch=master)](https://travis-ci.com/weihomechen/egg-mysql)
+
 Forked from [eggjs/egg-mysql](https://github.com/eggjs/egg-mysql)
 
 添加了`index.d.ts`，只为了在`egg-ts`里能不报错跑起来，极简的用了`any`来声明
